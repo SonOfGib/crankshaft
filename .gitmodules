@@ -1,3 +1,3 @@
 [submodule "prebuilts"]
 	path = prebuilts
-	url = https://github.com/opencardev/prebuilts.git
+	url = https://github.com/SonOfGib/prebuilts.git
