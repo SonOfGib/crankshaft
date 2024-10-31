@@ -47,6 +47,7 @@ ln -s /tmp/.cache-root /root/.cache
 ln -s /tmp/.backlight /var/lib/systemd/backlight
 ln -s /tmp/bluetooth /var/lib/bluetooth
 ln -s /tmp/openauto.ini /home/pi/openauto.ini
+ln -s /tmp/openauto-logs.ini /home/pi/openauto-logs.ini
 ln -s /tmp/openauto_wifi_recent.ini /home/pi/openauto_wifi_recent.ini
 ln -s /tmp/resolv.conf /etc/resolv.conf
 mkdir /media/MYMEDIA

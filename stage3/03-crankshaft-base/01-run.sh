@@ -5,6 +5,7 @@ install -m 644 files/boot/config.txt                                    "${ROOTF
 install -d "${ROOTFS_DIR}/boot/crankshaft"
 install -m 644 files/boot/crankshaft/gpio2kbd.cfg                       "${ROOTFS_DIR}/boot/crankshaft/"
 install -m 644 files/boot/crankshaft/openauto.ini                       "${ROOTFS_DIR}/boot/crankshaft/"
+install -m 644 files/boot/crankshaft/openauto-logs.ini                  "${ROOTFS_DIR}/boot/crankshaft/"
 install -m 644 files/boot/crankshaft/startup.py                         "${ROOTFS_DIR}/boot/crankshaft/"
 install -m 644 files/boot/crankshaft/startup.sh                         "${ROOTFS_DIR}/boot/crankshaft/"
 install -m 644 files/boot/crankshaft/triggerhappy.conf                  "${ROOTFS_DIR}/boot/crankshaft/"

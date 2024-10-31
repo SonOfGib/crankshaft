@@ -97,6 +97,7 @@ for FSMOUNTPOINT in $(ls -d /media/USBDRIVES/* 2>/dev/null); do
             cp -f /tmp/bootfs/crankshaft/capvolume /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
             cp -f /tmp/bootfs/crankshaft/alsactl.state /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
             cp -f /tmp/bootfs/crankshaft/openauto.ini /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
+            cp -f /tmp/bootfs/crankshaft/openauto-logs.ini /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
             cp -f /tmp/bootfs/crankshaft/wallpaper.png /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
             cp -f /tmp/bootfs/crankshaft/wallpaper-night.png /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
             cp -f /tmp/bootfs/crankshaft/wallpaper-classic.png /media/USBDRIVES/${PARTITION}/cs-backup/${SERIAL}/boot/crankshaft/ 2>/dev/null
